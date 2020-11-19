@@ -58,13 +58,23 @@ Exploratory Data Analysis (EDA): [pending*](#)
 ## Dependencies
 [(Back to top)](#table-of-contents)
 
-📦 [Gemfile.lock](Gemfile.lock)
+**Docker**
 
-**devDependencies**
+Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.
 
 - [Get Docker](https://docs.docker.com/get-docker/)
 - [Install Docker Compose](https://docs.docker.com/compose/install/)
 
+Run:
+
+> 1 - Containers build and services started
+```
+$ docker-compose up --build -d
+```
+> 2 - Created and populated Database
+```
+$ docker-compose exec api rails db:create db:migrate db:seed
+```
 ### Project content
 [(Back to top)](#table-of-contents)
 
