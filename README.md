@@ -53,18 +53,34 @@ software in packages called containers. Containers are isolated from one another
 their own software, libraries and configuration files.
 
 - [Get Docker](https://docs.docker.com/get-docker/)
-- [Install Docker Compose](https://docs.docker.com/compose/install/)
 
 Run:
 
-> 1 - Containers build and services started
+> 1 [TODO Description]
 ```
-$ docker-compose up --build -d
+$ docker build -t navigatron-flask-app .
 ```
-> 2 - Created and populated Database
+> 2 [TODO Description]
 ```
-$ TODO RUN command
+$ docker run -e FLASK_APP=models_realtime_batch.py navigatron-flask-app -m flask routes
 ```
+> 3 [TODO Description]
+```
+$ docker run -e FLASK_APP=models_realtime_batch.py -e FLASK_ENV=development -p 5000:5000 navigatron-flask-app
+```
+> 4 [TODO Description]
+```
+$ docker run -e FLASK_APP=models_realtime_batch.py -e FLASK_ENV=development -p 5000:5000 navigatron-flask-app -m flask run --host 0.0.0.0
+```
+> 5 [TODO Description]
+```
+$ docker logs $(docker ps --filter ancestor=navigatron-flask-app -q) --follow
+```
+> 6 [TODO Description]
+```
+$ docker run -it --entrypoint='' navigatron-flask-app /bin/sh
+```
+
 ### Project content
 [(Back to top)](#table-of-contents)
 
