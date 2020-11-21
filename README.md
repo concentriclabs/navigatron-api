@@ -17,13 +17,11 @@
 
 # Overview
 
-Model adopted: event-driven systems.
-
-Communication through Hypertext Transfer Protocol Secure (HTTP/S) is simple to implement and makes it easy to manage and trace a particular request. But there are limitations in areas like multicasting requests, circuit breaking to isolate failures, and decoupling services. EDAs address these limitations because they provide asynchronous communication and reactive programming approaches for effective fault tolerance, metrics in a highly distributed microservices architectures.
+> TODO
 
 # Architecture Design
 
-Figure  shows a high-level logical architecture of a typical asynchronous system. Events are broadcast to applications, and each application responds to the events. Applications tend to be more modular because they depend less on any specific systems than events. This architecture is designed to handle larger volumes of streaming events and uses event sourcing as a way to handle transactions.
+> TODO
 
 ![](https://storage.googleapis.com/bhe-drakkar-team/model-event.png)
 # Challenge
@@ -60,7 +58,9 @@ Exploratory Data Analysis (EDA): [pending*](#)
 
 **Docker**
 
-Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.
+Docker is a set of platform as a service products that use OS-level virtualization to deliver 
+software in packages called containers. Containers are isolated from one another and bundle 
+their own software, libraries and configuration files.
 
 - [Get Docker](https://docs.docker.com/get-docker/)
 - [Install Docker Compose](https://docs.docker.com/compose/install/)
@@ -73,12 +73,12 @@ $ docker-compose up --build -d
 ```
 > 2 - Created and populated Database
 ```
-$ docker-compose exec api rails db:create db:migrate db:seed
+$ TODO
 ```
 ### Project content
 [(Back to top)](#table-of-contents)
 
-![](https://storage.googleapis.com/bhe-drakkar-team/structure-rails.png)
+![](https://storage.googleapis.com/bhe-drakkar-team/arqt-api-ml.png)
 
 # Contribute
 [(Back to top)](#table-of-contents)
@@ -112,7 +112,7 @@ Front-End</small>
 # MIT License
 [(Back to top)](#table-of-contents)
 
-Copyright (c) 2020 HENRIQUE SILVA
+Copyright (c) 2020 Drakkar Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
