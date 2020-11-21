@@ -17,13 +17,13 @@
 
 # Overview
 
-> TODO
+> TODO Description
 
 # Architecture Design
 
-> TODO
+> TODO Description
 
-![](https://storage.googleapis.com/bhe-drakkar-team/model-event.png)
+![](https://storage.googleapis.com/bhe-drakkar-team/arqt-api-ml.png)
 # Challenge
 
 [Abertura Brasil Hack Export](https://youtu.be/kRC6m_qR3OQ)
@@ -73,12 +73,12 @@ $ docker-compose up --build -d
 ```
 > 2 - Created and populated Database
 ```
-$ TODO
+$ TODO RUN command
 ```
 ### Project content
 [(Back to top)](#table-of-contents)
 
-![](https://storage.googleapis.com/bhe-drakkar-team/arqt-api-ml.png)
+> TODO
 
 # Contribute
 [(Back to top)](#table-of-contents)
