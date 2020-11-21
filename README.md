@@ -1,17 +1,7 @@
 
 # Asynchronous NAVIGATRON Programming Interface (API)
-[![Gem Version](https://img.shields.io/gem/v/rails_admin.svg)][gem]
-[![Build Status](https://img.shields.io/travis/sferik/rails_admin.svg)][travis]
-[![Coverage Status](https://img.shields.io/coveralls/sferik/rails_admin.svg)][coveralls]
-[![Code Climate](https://codeclimate.com/github/sferik/rails_admin.svg)][codeclimate]
-[![SemVer](https://api.dependabot.com/badges/compatibility_score?dependency-name=rails_admin&package-manager=bundler&version-scheme=semver)][semver]
-
-[gem]: https://rubygems.org/gems/rails_admin
-[travis]: https://travis-ci.org/sferik/rails_admin
-[coveralls]: https://coveralls.io/r/sferik/rails_admin
-[inch]: http://inch-ci.org/github/sferik/rails_admin
-[codeclimate]: https://codeclimate.com/github/sferik/rails_admin
-[semver]: https://dependabot.com/compatibility-score.html?dependency-name=rails_admin&package-manager=bundler&version-scheme=semver
+![[](https://www.youracclaim.com/org/ibm/badge/cognitive-services-data-scientist)](https://storage.googleapis.com/bhe-drakkar-team/Data_Scientist_Badge.png)
+![[](https://www.youracclaim.com/org/rmit-university/badge/ai-programming-with-python)](https://storage.googleapis.com/bhe-drakkar-team/AI-Programming-Badge.png)
 
 <hr />
 
