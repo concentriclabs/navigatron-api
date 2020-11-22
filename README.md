@@ -6,8 +6,12 @@
 <hr />
 
 # Overview
+This app is the video game (kk) === "- Simple structure for real use to serve models in high risk operations, validated and built by the Drakkar do Brasil MLOps engineering team, reference in the Data / AI universe, in the Brazil and the world "-
+.
+The models === (the game cartridges).
 
-> TODO Description
+They can be developed to taste, to simulate any world in NAVIGATRON.
+Best door simulation game in the world.
 
 # Architecture Design
 
